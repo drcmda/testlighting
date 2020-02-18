@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+#root {
+  overflow: auto;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: 'Amiri', serif;
+  color: white;
+  background: black;
+  background: radial-gradient(circle at bottom center, rgba(60, 60, 60, 1) 0%, rgba(0, 0, 0, 1) 45%);
+  cursor: url('https://github.com/chenglou/react-motion/raw/master/demos/demo8-draggable-list/cursor.png') 39 39, auto;
+}
+
+.loader {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+}
+
+.header {
+  pointer-events: none;
+  position: absolute;
+  top: 6em;
+  left: 0;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+  font-size: 0.8em;
+  width: 100%;
+  text-align: center;
+}
+
+.header > span {
+  padding: 0 3.25em;
+  letter-spacing: 0.4em;
+  position: relative;
+}
+
+.header > span.active::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  width: 20px;
+  height: 2px;
+  background: white;
+}
+
+.middle {
+  pointer-events: none;
+  position: absolute;
+  bottom: 2.5em;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+
+.middle > h1 {
+  line-height: 0.9em;
+  font-weight: 100;
+}
+
+.middle > h1::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 2px;
+  background: white;
+}
+
+.middle > h2 {
+  font-size: 1em;
+  line-height: 0px;
+  font-weight: 100;
+  letter-spacing: 0.25em;
+  font-style: italic;
+}
