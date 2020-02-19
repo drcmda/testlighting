@@ -13,7 +13,7 @@ export default function App() {
         <Suspense
           fallback={
             <Dom center className="loader">
-              LOADING...
+              LOADING
             </Dom>
           }>
           <Model position={[0, -6, 0]} rotation={[0, -0.2, 0]} />
