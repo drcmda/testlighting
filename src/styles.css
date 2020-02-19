@@ -29,7 +29,7 @@ body {
   font-family: 'Amiri', serif;
   color: white;
   background: black;
-  background: radial-gradient(circle at bottom center, rgba(60, 60, 60, 1) 0%, rgba(0, 0, 0, 1) 45%);
+  background: radial-gradient(circle at bottom center, rgba(70, 70, 70, 1) 0%, rgba(0, 0, 0, 1) 50%);
   cursor: url('https://github.com/chenglou/react-motion/raw/master/demos/demo8-draggable-list/cursor.png') 39 39, auto;
 }
 
@@ -77,6 +77,7 @@ body {
   font-size: 2em;
   letter-spacing: 0.5em;
   text-align: center;
+  width: 100%;
 }
 
 .middle > h1 {
