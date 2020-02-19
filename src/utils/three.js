@@ -31,20 +31,20 @@ export class Line {}
 export class Points {}
 export { Group } from 'three/src/objects/Group.js'
 //export { VideoTexture } from 'three/src/textures/VideoTexture.js'
-export { DataTexture } from 'three/src/textures/DataTexture.js'
+//export { DataTexture } from 'three/src/textures/DataTexture.js'
 //export { DataTexture2DArray } from 'three/src/textures/DataTexture2DArray.js'
 //export { DataTexture3D } from 'three/src/textures/DataTexture3D.js'
 //export { CompressedTexture } from 'three/src/textures/CompressedTexture.js'
 //export { CubeTexture } from 'three/src/textures/CubeTexture.js'
 //export { CanvasTexture } from 'three/src/textures/CanvasTexture.js'
-export { DepthTexture } from 'three/src/textures/DepthTexture.js'
-export { Texture } from 'three/src/textures/Texture.js'
+//export { DepthTexture } from 'three/src/textures/DepthTexture.js'
+//export { Texture } from 'three/src/textures/Texture.js'
 //export * from 'three/src/geometries/Geometries.js'
 //export * from 'three/src/materials/Materials.js'
 export { Material } from 'three/src/materials/Material.js'
 export { MeshStandardMaterial } from 'three/src/materials/MeshStandardMaterial.js'
-export { ShaderMaterial } from 'three/src/materials/ShaderMaterial.js'
-export { MeshNormalMaterial } from 'three/src/materials/MeshNormalMaterial.js'
+//export { ShaderMaterial } from 'three/src/materials/ShaderMaterial.js'
+//export { MeshNormalMaterial } from 'three/src/materials/MeshNormalMaterial.js'
 export class LineBasicMaterial {}
 export class MeshBasicMaterial {}
 export class MeshDepthMaterial {}

@@ -51,8 +51,8 @@ function Lights() {
   useFrame(({ clock, mouse }) => {
     groupL.current.rotation.y = lerp(groupL.current.rotation.y, -mouse.x * (Math.PI / 2), 0.1)
     groupR.current.rotation.y = lerp(groupR.current.rotation.y, mouse.x * (Math.PI / 2), 0.1)
-    front.current.position.x = lerp(front.current.position.x, mouse.x * 12, 0.2)
-    front.current.position.y = lerp(front.current.position.y, 7 + mouse.y * 4, 0.2)
+    front.current.position.x = lerp(front.current.position.x, mouse.x * 12, 0.4)
+    front.current.position.y = lerp(front.current.position.y, 7 + mouse.y * 4, 0.4)
   })
 
   return (
