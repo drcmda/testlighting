@@ -2,7 +2,6 @@ import React, { Suspense, useMemo, useRef, useState, useEffect } from 'react'
 import { Canvas, Dom } from 'react-three-fiber'
 import lerp from 'lerp'
 import Model from './Model'
-import Post from './Post'
 
 export default function App() {
   return (
@@ -17,7 +16,6 @@ export default function App() {
             </Dom>
           }>
           <Model position={[0, -6, 0]} rotation={[0, -0.2, 0]} />
-          <Post />
         </Suspense>
       </Canvas>
       <div class="header">

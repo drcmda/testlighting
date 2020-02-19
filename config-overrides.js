@@ -4,10 +4,10 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 const path = require('path')
 
 module.exports = override(
-  addWebpackAlias({
+  /*addWebpackAlias({
     three$: path.resolve('./src/utils/three.js'),
     '../../../build/three.module.js': path.resolve('./src/utils/three.js')
-  }),
+  }),*/
   addReactRefresh(),
-  addWebpackPlugin(new BundleAnalyzerPlugin())
+  //addWebpackPlugin(new BundleAnalyzerPlugin())
 )
