@@ -71,7 +71,7 @@ function Lights() {
         angle={Math.PI / 3}
         position={[0, 0, 5]}
         distance={12}
-        intensity={5}
+        intensity={8}
         shadow-bias={-0.001}
         shadow-mapSize-width={2048}
         shadow-mapSize-height={2048}
