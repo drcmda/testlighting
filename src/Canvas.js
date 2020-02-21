@@ -1,6 +1,5 @@
-import React, { Suspense, useMemo, useRef, useState, useEffect } from 'react'
+import React, { Suspense } from 'react'
 import { Canvas, Dom } from 'react-three-fiber'
-import lerp from 'lerp'
 import Model from './Model'
 
 export default function App() {
